@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film Sitesi</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/
+    npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--NAVBAR BAŞLAGNIC-->
+    <div class="navbar">
+        <div class="navbar-wrapper">
+            <div class="logo-wrapper">
+                <h2 class="logo">YUSCENE</h2>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active">Anasayfa</a>
+                    <li class="menu-list-item">Filmler</li>
+                    <li class="menu-list-item">Diziler</li>
+                    <li class="menu-list-item">Listem</li>
+                    <li class="menu-list-item">Popüler</li>
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img src="resimler/indir.png" class="profile-picture">
+                <div class="profile-text-container">
+                    <span class="profile-text">Profilim</span>
+                    <i class="fas fa-person"></i>
+                </div>
+                <div class="toggle">
+                    <i class="bi bi -moon -fill"></i>
+                    <i class="bi bi-brightness-high-fill"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----NAVBAR BİTİŞ-->
+
+
+    <!---SİDEBAR BAŞLANGIC-->
+    <div class="sidebar">
+        <i class="fas fa-home"></i>
+        <i class="fas fa-user"></i>
+        <i class="fas fa-search"></i>
+        <i class="fas fa-adress-book"></i>
+        <i class="fas fa-blog"></i>
+        <i class="fas fa-map-pin"></i>
+        <i class="fas fa-address-card"></i>
+    </div>
+    <!---SİDEBAR bitiş-->
+
+    <!--? feature kısım başlangıç-->
+    <div class="container">
+    <div class="content-wrapper">
+        <div class="featured-content">
+            <!-- <img class="feaetured-title"  src="resimler/AVG_MT_002_Final_v01.jpg"> -->
+            <p class="featured-desc">
+                "Avengers Infinity War"un ardından pek çok süper kahraman küle dönüşmüştür. Doktor Strange, Gamora, Drax, Mantis, genç Örümcek Adam, Black Panther, Bucky Barnes, Groot, Scarlet Witch, Vision, Star Lord, Maria Hill, The Wasp ve Nick Fury gibi pek çok kahraman, Thanos'un Sonsuzluk Eldiveni'ni ele geçirmesi ve kendi dengesini kurması yüzünden yok olmuştur ve dünya umutsuz haldedir. 
+
+            </p>
+            <div class="featured-buttons">
+                <button class="play-button">
+                    <i class="fas fa-play"></i>
+                    Oynat
+                </button>
+                <button class="info-button">
+                    <i class="fas fa-search"></i>
+                    Daha Fazla Bilgi
+                </button>
+            </div>
+        </div>
+        
+    </div>
+    <div class="movie-list-filter">
+        <select>
+            <option>  Aksiyon</option>
+            <option>  Heyecan</option>
+            <option>  Savaş</option>
+            <option>  Komedi</option>
+            <option>  Romantik</option>
+        </select>
+    </div>
+        <!--? filter bitiş-->
+
+
+
+        <!--? movie list başlangıc -->
+        <div class="movie-list-container">
+            <h1 class="movie-list-title">Popüler</h1>
+            <div class="movie-list-wrapper">
+                <ul class="movie-list">
+                    <li class="movie-item">
+                        <img  class="movie-item-img" src="resimler/gora.webp" alt="">
+                        
+                        <div class="movie-item-info">
+                            <span 
+                            class="movie-item-title">GORA</span>
+                            <div class="movie-item-buttons">
+                                <i class="fas fa-file"></i>
+                                <i class="fas fa-bars"></i>
+                                <i class="fas fa-play"></i>
+                                <i class="fas fa-stop"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img  class="movie-item-img" src="resimler/arog.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span 
+                            class="movie-item-title">AROG</span>
+                            <div class="movie-item-buttons">
+                                <i class="fas fa-file"></i>
+                                <i class="fas fa-bars"></i>
+                                <i class="fas fa-play"></i>
+                                <i class="fas fa-stop"></i>
+                            </div>
+                    </li>
+                    <li class="movie-item">
+                        <img  class="movie-item-img" src="resimler/dark.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span 
+                            class="movie-item-title">DARK</span>
+                            <div class="movie-item-buttons">
+                                <i class="fas fa-file"></i>
+                                <i class="fas fa-bars"></i>
+                                <i class="fas fa-play"></i>
+                                <i class="fas fa-stop"></i>
+                            </div>
+                    </li>
+                    <li class="movie-item">
+                        <img  class="movie-item-img" src="resimler/fast-9-trailer.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span 
+                            class="movie-item-title">FAST AND FOURİORUS 9</span>
+                            <div class="movie-item-buttons">
+                                <i class="fas fa-file"></i>
+                                <i class="fas fa-bars"></i>
+                                <i class="fas fa-play"></i>
+                                <i class="fas fa-stop"></i>
+                            </div>
+                    </li>
+                    <li class="movie-item">
+                        <img  class="movie-item-img" src="resimler/matrix.jfif" alt="">
+                        <div class="movie-item-info">
+                            <span 
+                            class="movie-item-title">Matrix</span>
+                            <div class="movie-item-buttons">
+                                <i class="fas fa-file"></i>
+                                <i class="fas fa-bars"></i>
+                                <i class="fas fa-play"></i>
+                                <i class="fas fa-stop"></i>
+                            </div>
+                    </li>
+                    <li class="movie-item">
+                        <img  class="movie-item-img" src="resimler/recepivedik.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span 
+                            class="movie-item-title">RECEP İVEDİK 7</span>
+                            <div class="movie-item-buttons">
+                                <i class="fas fa-file"></i>
+                                <i class="fas fa-bars"></i>
+                                <i class="fas fa-play"></i>
+                                <i class="fas fa-stop"></i>
+                            </div>
+                    </li>
+                    <li class="movie-item">
+                        <img  class="movie-item-img" src="resimler/arog.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span 
+                            class="movie-item-title">AROG</span>
+                            <div class="movie-item-buttons">
+                                <i class="fas fa-file"></i>
+                                <i class="fas fa-bars"></i>
+                                <i class="fas fa-play"></i>
+                                <i class="fas fa-stop"></i>
+                            </div>
+                    </li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <i class="fas fa-angle-right arrow"></i>
+            </div>
+        </div>
+
+
+        <!--? movie list end-->
+        <div class="movie-list-container">
+            <h1 class="movie-list-title">Gündemdekiler</h1>
+            <div class="movie-list-wrapper">
+                <ul class="movie-list">
+                    <li class="movie-item">
+                        <img  class="movie-item-img" src="resimler/americansniper.jpg" alt="">
+                        
+                        <div class="movie-item-info">
+                            <span 
+                            class="movie-item-title">American Sniper</span>
+                            <div class="movie-item-buttons">
+                                <i class="fas fa-file"></i>
+                                <i class="fas fa-bars"></i>
+                                <i class="fas fa-play"></i>
+                                <i class="fas fa-stop"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img  class="movie-item-img" src="resimler/240159.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span 
+                            class="movie-item-title">Avengers</span>
+                            <div class="movie-item-buttons">
+                                <i class="fas fa-file"></i>
+                                <i class="fas fa-bars"></i>
+                                <i class="fas fa-play"></i>
+                                <i class="fas fa-stop"></i>
+                            </div>
+                    </li>
+                    <li class="movie-item">
+                        <img  class="movie-item-img" src="resimler/hobit.jpeg" alt="">
+                        <div class="movie-item-info">
+                            <span 
+                            class="movie-item-title">Hobit</span>
+                            <div class="movie-item-buttons">
+                                <i class="fas fa-file"></i>
+                                <i class="fas fa-bars"></i>
+                                <i class="fas fa-play"></i>
+                                <i class="fas fa-stop"></i>
+                            </div>
+                    </li>
+                    <li class="movie-item">
+                        <img  class="movie-item-img" src="resimler/calgi-cengi-2.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span 
+                            class="movie-item-title">Çalgı Çengi 2 İkimiz</span>
+                            <div class="movie-item-buttons">
+                                <i class="fas fa-file"></i>
+                                <i class="fas fa-bars"></i>
+                                <i class="fas fa-play"></i>
+                                <i class="fas fa-stop"></i>
+                            </div>
+                    </li>
+                    <li class="movie-item">
+                        <img  class="movie-item-img" src="resimler/hulk.webp" alt="">
+                        <div class="movie-item-info">
+                            <span 
+                            class="movie-item-title">HULK</span>
+                            <div class="movie-item-buttons">
+                                <i class="fas fa-file"></i>
+                                <i class="fas fa-bars"></i>
+                                <i class="fas fa-play"></i>
+                                <i class="fas fa-stop"></i>
+                            </div>
+                    </li>
+                    <li class="movie-item">
+                        <img  class="movie-item-img" src="resimler/recepivedik.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span 
+                            class="movie-item-title">RECEP İVEDİK 7</span>
+                            <div class="movie-item-buttons">
+                                <i class="fas fa-file"></i>
+                                <i class="fas fa-bars"></i>
+                                <i class="fas fa-play"></i>
+                                <i class="fas fa-stop"></i>
+                            </div>
+                    </li>
+                    <li class="movie-item">
+                        <img  class="movie-item-img" src="resimler/arog.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span 
+                            class="movie-item-title">AROG</span>
+                            <div class="movie-item-buttons">
+                                <i class="fas fa-file"></i>
+                                <i class="fas fa-bars"></i>
+                                <i class="fas fa-play"></i>
+                                <i class="fas fa-stop"></i>
+                            </div>
+                    </li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <i class="fas fa-angle-right arrow"></i>
+            </div>
+        </div>
+
+        <div class="movie-list-container">
+            <h1 class="movie-list-title">Yeni Çıkanlar</h1>
+            <div class="movie-list-wrapper">
+                <ul class="movie-list">
+                    <li class="movie-item">
+                        <img  class="movie-item-img" src="resimler/fight.jpg" alt="">
+                        
+                        <div class="movie-item-info">
+                            <span 
+                            class="movie-item-title">Fight Clup</span>
+                            <div class="movie-item-buttons">
+                                <i class="fas fa-file"></i>
+                                <i class="fas fa-bars"></i>
+                                <i class="fas fa-play"></i>
+                                <i class="fas fa-stop"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img  class="movie-item-img" src="resimler/dügün.webp" alt="">
+                        <div class="movie-item-info">
+                            <span 
+                            class="movie-item-title">Düğün Dernek</span>
+                            <div class="movie-item-buttons">
+                                <i class="fas fa-file"></i>
+                                <i class="fas fa-bars"></i>
+                                <i class="fas fa-play"></i>
+                                <i class="fas fa-stop"></i>
+                            </div>
+                    </li>
+                    <li class="movie-item">
+                        <img  class="movie-item-img" src="resimler/vikings.webp" alt="">
+                        <div class="movie-item-info">
+                            <span 
+                            class="movie-item-title">Vikings</span>
+                            <div class="movie-item-buttons">
+                                <i class="fas fa-file"></i>
+                                <i class="fas fa-bars"></i>
+                                <i class="fas fa-play"></i>
+                                <i class="fas fa-stop"></i>
+                            </div>
+                    </li>
+                    <li class="movie-item">
+                        <img  class="movie-item-img" src="resimler/nefes.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span 
+                            class="movie-item-title">Nefes</span>
+                            <div class="movie-item-buttons">
+                                <i class="fas fa-file"></i>
+                                <i class="fas fa-bars"></i>
+                                <i class="fas fa-play"></i>
+                                <i class="fas fa-stop"></i>
+                            </div>
+                    </li>
+                    <li class="movie-item">
+                        <img  class="movie-item-img" src="resimler/recepivedik.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span 
+                            class="movie-item-title">Recep İvedik 7</span>
+                            <div class="movie-item-buttons">
+                                <i class="fas fa-file"></i>
+                                <i class="fas fa-bars"></i>
+                                <i class="fas fa-play"></i>
+                                <i class="fas fa-stop"></i>
+                            </div>
+                    </li>
+                    <li class="movie-item">
+                        <img  class="movie-item-img" src="resimler/recepivedik.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span 
+                            class="movie-item-title">RECEP İVEDİK 7</span>
+                            <div class="movie-item-buttons">
+                                <i class="fas fa-file"></i>
+                                <i class="fas fa-bars"></i>
+                                <i class="fas fa-play"></i>
+                                <i class="fas fa-stop"></i>
+                            </div>
+                    </li>
+                    <li class="movie-item">
+                        <img  class="movie-item-img" src="resimler/arog.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span 
+                            class="movie-item-title">AROG</span>
+                            <div class="movie-item-buttons">
+                                <i class="fas fa-file"></i>
+                                <i class="fas fa-bars"></i>
+                                <i class="fas fa-play"></i>
+                                <i class="fas fa-stop"></i>
+                            </div>
+                    </li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <i class="fas fa-angle-right arrow"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
