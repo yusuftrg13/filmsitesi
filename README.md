@@ -3,4 +3,4 @@
 <img src="uyg_tanıtım2.jpg" width="auto">
 
 #Proje Amacı
-Kendimi geliştirme amaçlı Html Css Javascript kullanarak bir site tasarladım
+Kendimi geliştirme amacıyla derslerden öğrendiklerimle klon proje kodladım Html Css Javascript Kullandım
